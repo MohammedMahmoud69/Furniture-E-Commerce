@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "Furniture-E-Commerce/wsgi.py",
+        "src": "furniture-e-commerce/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
       },
